@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <title>Desafio AluraGeek 2024</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1><a href="https://alura.com.br/cursos" target="_blank">
+                <img src="assets/Logo.png" alt="Logo Alurageek">
+            </a>
+        </h1>
+    </header>
+
+    <main>
+        <div class="container" id="produtos">
+            <section class="meus-produtos" id="todosProdutos">
+                <h1>MEUS PRODUTOS:</h1>
+                <div class="produtos" id="cards">
+
+                </div>
+            </section>
+
+            <section id="produtos-container" class="produtos-container" class="adicionar-produtos">
+                <h1>ADICIONAR</h1>
+                <h1>PRODUTO:</h1>
+                <form id="form-produto">
+                <div class="input-group">
+                    <input type="text" id="nome" name="nome" placeholder="Nome do produto" required>
+
+                    <input type="number" id="valor" name="valor" placeholder="Preço" required>
+
+                    <input type="" id="imagem" name="imagem" placeholder="URL da Imagem" required>
+                </div>
+
+                <div class="button-group">
+                    <button class="guardar" type="submit">Guardar</button>
+                    <button class="limpar" type="reset">Limpar</button>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <img src="assets/Logo.png" class="Logo-rodape">
+            <p>Desenvolvido por Lila Harada</p>
+            <p>ALURA LATAM 2024</p>
+        </a>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
